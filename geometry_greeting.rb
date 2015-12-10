@@ -21,4 +21,4 @@ end
 
 puts "First enter your name, and then choose your language"
 
-greet(gets.chomp, gets.chomp)
+greet(gets.chomp, optional = gets.chomp)
