@@ -19,6 +19,6 @@ def greet(name, language)
  end
 end
 
-puts "First enter your name, then your language"
+puts "First enter your name, and then choose your language"
 
 greet(gets.chomp, gets.chomp)
