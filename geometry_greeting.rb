@@ -1,4 +1,4 @@
-def greet(name)
+def greet(name, language)
   random = rand(1..4)
   if random == 1
    puts "Hi #{name}!"
@@ -11,6 +11,6 @@ def greet(name)
  end
 end
 
-puts "Whats your name?"
+puts "First enter your name, then your language"
 
-greet(gets.chomp)
+greet(gets.chomp, gets.chomp)
