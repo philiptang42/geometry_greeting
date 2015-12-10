@@ -1,6 +1,12 @@
 def greet(name, language)
   random = rand(1..4)
-  if language != "Spanish" || language != "Italian" || language != "French"
+ if language == "Spanish"
+   puts "Hola #{name}"
+ elsif language == "Italian"
+   puts "Ciao #{name}"
+ elsif language == "French"
+   puts "Bonjour #{name}"
+  else
     if random == 1
      puts "Hi #{name}!"
     elsif random == 2
@@ -10,8 +16,6 @@ def greet(name, language)
     else
      puts "What's up #{name}?"
    end
- else
-   puts "lol"
  end
 end
 
